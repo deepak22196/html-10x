@@ -1,0 +1,4 @@
+lorem50=dummy text with 50 words
+sup and sub=to move the text above and below as in 1st
+for special characters=&value;
+value can be text code or number code and then semicolon
