@@ -1,0 +1,5 @@
+path=./folder-name/file-name(if image is in different folder)
+
+sites: pixels
+pixabay
+gratisography
