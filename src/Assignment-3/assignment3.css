@@ -1,7 +1,70 @@
 /* Our CSS file. */
 
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.upper {
+  width: 100vw;
+  height: 48vh;
+  background-color: #f2f2f2;
+  border: solid;
+}
+
+.lower {
+  width: 100vw;
+  height: 48vh;
+  background-color: #f2f2f2;
+  border: solid;
+  margin-top: 2vh;
+}
+
+.upper-left {
+  width: 50%;
+  height: 100%;
+
+  float: left;
+  border: solid;
+  position: relative;
+}
+
+.upper-right {
+  width: 50%;
+  height: 100%;
+
+  float: right;
+  border: solid;
+}
+
+.lower div {
+  width: 100%;
+  height: 50%;
+  border: solid;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+button {
+  position: absolute;
+  left: 40%;
+  bottom: 20%;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.button-2 {
+  position: absolute;
+  left: 50%;
 }

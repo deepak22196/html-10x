@@ -1,34 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
-	<script src="bundle.js" type="text/javascript"></script>
-</head>
+  <head>
+    <title></title>
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script src="bundle.js" type="text/javascript"></script>
+  </head>
 
-<body>
-	<div id="container">
+  <body>
+    <div id="container">
+      <!-- Start your code from here -->
+      <!-- start of upper div -->
+      <div class="upper">
+        <div class="upper-left">
+          <h1>I'm heading in left block</h1>
+          <br />
+          <br />
 
-	<!-- Start your code from here -->
-	
-	<!-- End your code -->
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quasi
+            temporibus repellat sed facilis, consequuntur adipisci. Consequuntur
+            impedit cupiditate perspiciatis rerum eaque, placeat nihil quaerat
+          </p>
+          <br />
+          <br />
+          <button>Click Here</button>
+        </div>
+        <div class="upper-right">
+          <iframe
+            id="render-wiki"
+            src="https://en.wikipedia.org/wiki/Main_Page"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
 
-	</div>
-</body>
-<script>
-/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
-	// Get HTML head element
-	var head = document.getElementsByTagName('HEAD')[0]; 
-	// Create new link Element
-	var link = document.createElement('link');
-	// set the attributes for link element 
-	link.rel = 'stylesheet'; 
-	link.type = 'text/css';
-	link.href = './assignment3.css?v='+ new Date().getTime(); 
-	// Append link element to HTML head
-	head.appendChild(link); 
-	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
-</script> 
+      <!-- end of upper div -->
+
+      <!-- start of lower div -->
+
+      <div class="lower">
+        <div>
+          <h1>I'm heading in left block</h1>
+          <br />
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quasi
+            temporibus repellat sed facilis, consequuntur adipisci. Consequuntur
+            impedit cupiditate perspiciatis rerum eaque, placeat nihil quaerat
+          </p>
+          <button class="button-2">Click Here</button>
+        </div>
+        <div>
+          <iframe
+            id="render-dictionary"
+            src="https://www.dictionary.com/learn/word-lists"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- end of lower div -->
+
+      <!-- End your code -->
+    </div>
+  </body>
+  <script>
+    /* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+    // Get HTML head element
+    var head = document.getElementsByTagName("HEAD")[0];
+    // Create new link Element
+    var link = document.createElement("link");
+    // set the attributes for link element
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = "./assignment3.css?v=" + new Date().getTime();
+    // Append link element to HTML head
+    head.appendChild(link);
+    /* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+  </script>
 </html>
