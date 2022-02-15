@@ -1,7 +1,90 @@
 /* Our CSS file. */
 
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 150vh;
+  width: 100vw;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 95%;
+  height: 40%;
+  background-color: bisque;
+  border: solid;
+  display: flex;
+}
+
+/* fine till here */
+
+.pic-div {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(92, 182, 92, 0.767);
+  direction: flex;
+  position: relative;
+}
+
+.text-div {
+  width: 30%;
+  height: 100%;
+  background-color: whitesmoke;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 5%;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+button {
+  background-color: rgba(92, 182, 92, 0.767);
+  border: solid;
+  border-radius: 30px;
+  padding: 9px 25px;
+  color: azure;
+  font-size: 3rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.img-1 {
+  height: 100%;
+  width: 120%;
+  position: absolute;
+  bottom: 10%;
+  margin: 0 -10%;
+}
+
+.img-2 {
+  height: 80%;
+  width: 110%;
+  position: absolute;
+  bottom: 10%;
+  margin: 0 -5%;
 }
